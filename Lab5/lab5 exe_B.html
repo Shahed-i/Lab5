@@ -1,0 +1,40 @@
+<!--
+=========================================================
+Name        : lab5_exe_B.html
+Assignment  : Lab 5, Exercise B
+Author(s)   : Neha Parmar, Shahed Issa
+Submission  : Feb 12, 2024
+Description : Arrays and functions.
+=========================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JavaScript String and Variable Exercise </title>
+</head>
+<body >
+    <script>
+        let firstName = "Neha";
+        let lastName = "Parmar";
+        let age = 19;
+
+        let fullName = firstName + " " + lastName;
+        console.log(fullName);
+
+        let currentYear = new Date().getFullYear();
+        let birthYear = currentYear - age;
+        console.log(birthYear);
+
+        console.log(fullName.length);
+        console.log(fullName.toUpperCase());
+
+        console.log(`Hello, my name is ${fullName} and I am ${age} years old. I was born in ${birthYear}.`);
+
+        let canVote = age > 18 ? true : false;
+        console.log(`I am eligible to vote: ${canVote}`);
+    </script>
+</body>
+</html>
